@@ -259,3 +259,9 @@ footer a:hover{
     margin-right:auto;
     width:60%;
 }
+
+.ind{
+    background:url(indexka.jpg);
+    background-attachment:fixed;
+    background-size: 400px 400px;
+}
