@@ -32,6 +32,7 @@ nav {
     top: 0px;
     left: 0px;
     right: 0px;
+    text-align: center;
 }
 
 nav a {
@@ -40,6 +41,9 @@ nav a {
     text-align: center;
     float: left;
     color: white;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -294,5 +298,8 @@ footer a:hover{
     align-items: center;
     float: right;
 }
+
+
+
 
 
