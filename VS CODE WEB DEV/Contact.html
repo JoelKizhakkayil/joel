@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Joel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Joel's Personal Website</h1></a>
+    </header>
+    <nav>
+        <a href="index.html">Website</a>
+        <a target="_blank" href="contact.html">Contact</a>
+        <a target="_blank" href="social.html">Social Media Handles</a>
+        <a target="_blank" href="https://www.linkedin.com/in/joel-john-k-886535320/">LinkedIn</a>
+        <a target="_blank" href="background.html">About me</a>
+        <a target="_blank" href="achievements_certifications.html">Acheivements and Certifications</a>
+        <a target="_blank" href="learn_more.html">Learn More</a>
+        <a target="_blank" href="https://github.com/JoelKizhakkayil/joel">Github</a>
+        <div class="search-container">
+            <input name="search"type="text" placeholder="Search..." class="searchtype">
+            <button type="submit" class="button">
+                <img src="search.png" alt="Search">
+            </button>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h3>Contact</h3>
+            <div class="form">
+                <form action="index.html",method="Post">
+                    <p>
+                        First Name: <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                    </p>
+                    <p>
+                        Middle Name: <input type="text" name="mname" id="mname" placeholder="Middle Name (if any)">
+                    </p>
+                    <p>
+                        Last Name: <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </p>
+                    <p>
+                        Email: <input type="email" name="email" id="email" placeholder="someone123@mail.com" required>
+                    </p>
+                    <p>
+                        Address:<br><textarea name="address" id="address" cols="35" rows="8" placeholder="Enter your complete address!" required></textarea>
+                    </p>
+                    <p>
+                        Pincode: <input type="number" name="pincode" id="pincode" placeholder="123456" required>
+                    </p>
+                        Country: 
+                            <select name="country" id="country" required>
+                                <option value="">(select one)</option>
+                                <option value="1">India</option>
+                                <option value="2">Others</option>
+                            </select>
+                    </p>
+                    <p>
+                        Reason for Contact:<br><textarea name="reason" id="reason" cols="35" rows="8" placeholder="Type Message..." required></textarea>
+                    </p>
+                    <input type="submit" value="Submit">
+                </form>
+    
+            </div>
+         </section>
+            </main>
+            <footer>
+            <a target="_blank" href="contact.html">Contact</a>
+            <a href="#" class="copyright">&copy; 2024 | Joel's Personal Website</a>
+            </footer>
+</body>
+</html>
